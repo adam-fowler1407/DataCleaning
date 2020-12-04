@@ -39,4 +39,6 @@ df['SCT Retest'] = np.where(df['SCT CD QC'] == 100, 0, 1)
 df['Burst Retest'] = np.where(df['Burst Average'] == 100, 0, 1)
 df['Porosity Retest'] = np.where(df['Porosity QC'] == 100, 0, 1)
 
+
+df = df.drop(['y', 'm', 'd'], axis=1)
 df.to_csv(r'M:\Kemsley Paper Mill\Technical\Technical\PM4\PM4 Daily Analysis\Jumbo Test Results\JumboTestReport-Clean.csv', index=False)
