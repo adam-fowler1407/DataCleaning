@@ -1,5 +1,5 @@
 # DataCleaning
-Data Cleaning Python script
+Data Cleaning Python script for CVS Files containing Paper Strength Data
 
 Simple Python script to be used to effectivly clean CVS Files, and save in the same loaction
 
